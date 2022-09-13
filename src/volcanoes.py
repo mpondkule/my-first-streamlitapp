@@ -148,3 +148,10 @@ elif (len(fig1.data) == 1):
 
 fig.update_geos(fitbounds="locations", visible=False)
 st.plotly_chart(fig)
+
+
+question = "which green energy source in switzerland would possibly be effected the most if" \
+         " there is super volcanic erruption in mount Etna, Italy?"
+paragraph = "https://en.wikipedia.org/wiki/Volcanic_ash"
+"Question: ",question
+"Answer: ", paragraph
