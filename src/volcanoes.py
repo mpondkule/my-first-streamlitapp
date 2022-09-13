@@ -126,7 +126,7 @@ fig.update_layout(title_text = 'Volcanoes around the World', showlegend = True)
 
 fig1 = px.choropleth_mapbox(df_select, geojson=cantons_json,
                             locations='canton', color='energy_source_level_2', featureidkey='properties.kan_name',
-                            mapbox_style="carto-positron",
+                            mapbox_style="stamen-terrain",
                             zoom=6, center={"lat": 46.798333, "lon": 8.231944},
                             opacity=0.5
                             )
