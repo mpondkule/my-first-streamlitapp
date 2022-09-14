@@ -155,3 +155,8 @@ question = "which green energy source in switzerland would possibly be effected 
 paragraph = "https://en.wikipedia.org/wiki/Volcanic_ash"
 "Question: ",question
 "Answer: ", paragraph
+
+question = "Name one Holcene type Volcano in Kamchatka peninsula?"
+paragraph = "please search in the volcaneos world map above"
+"Question: ",question
+"Answer: ", paragraph
